@@ -249,9 +249,10 @@ BrO:
   Is_Photolysis: true
   MW_g: 95.9
 BRO2:
+  Formula: C6H7O5
   Fullname: Peroxy radical from BENZ oxidation
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 159.1
 BrSALA:
   >> : *SALAproperties
   Formula: Br
@@ -289,13 +290,15 @@ C3H8:
   MW_g: 44.1
   MolecRatio: 3.0
 C4HVP1:
+  Formula: C4H7O3
   Fullname: C4 hydroxy-vinyl peroxy radicals from HPALDS
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 103.1
 C4HVP2:
+  Formula: C4H7O3
   Fullname: C4 hydroxy-vinyl peroxy radicals from HPALDS
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 103.1
 CCl4:
   Formula: CCl4
   Fullname: Carbon tetrachloride
@@ -1462,10 +1465,10 @@ HPALD1:
   Is_Photolysis: true
   MW_g: 116.1
 HPALD1OO:
-  Formula: C5H8O5
+  Formula: C5H7O5
   Fullname: HPALD1OO
   Is_Gas: true
-  MW_g: 148.1
+  MW_g: 147.1
 HPALD2:
   DD_F0: 0.0
   DD_Hstar: 4.0e+4
@@ -1477,10 +1480,10 @@ HPALD2:
   Is_Photolysis: true
   MW_g: 116.1
 HPALD2OO:
-  Formula: C5H8O5
+  Formula: C5H7O5
   Fullname: HPALD2OO
   Is_Gas: true
-  MW_g: 148.1
+  MW_g: 147.1
 HPALD3:
   DD_F0: 0.0
   DD_Hstar: 4.0e+4
@@ -1604,10 +1607,10 @@ ICHE:
   MW_g: 116.1
   WD_RetFactor: 2.0e-2
 ICHOO:
-  Formula: C5H10O5
+  Formula: C5H9O5
   Fullname: Peroxy radical from IEPOXD
   Is_Gas: true
-  MW_g: 150.2
+  MW_g: 149.1
 ICl:
   DD_F0: 0.0
   DD_Hstar: 1.11e+2
@@ -1637,10 +1640,10 @@ ICN:
   MW_g: 145.1
   WD_RetFactor: 2.0e-2
 ICNOO:
-  Formula: C5H7NO6
+  Formula: C5H8NO7
   Fullname: Peroxy radicals from ICN
   Is_Gas: true
-  MW_g: 177.1
+  MW_g: 194.1
 ICPDH:
   DD_F0: 1.0
   DD_Hstar: 1.0e+8
@@ -1693,20 +1696,20 @@ IDHDP:
   MW_g: 168.2
   WD_RetFactor: 2.0e-2
 IDHNBOO:
-  Formula: C5H9NO7
+  Formula: C5H10NO7
   Fullname: Peroxy radicals from INPB
   Is_Gas: true
-  MW_g: 195.1
+  MW_g: 196.1
 IDHNDOO1:
-  Formula: C5H9NO7
-  Fullname: Peroxy radicals from INPD
+  Formula: C5H10NO7
+  Fullname: Peroxy radicals from IHN1
   Is_Gas: true
-  MW_g: 195.1
+  MW_g: 196.1
 IDHNDOO2:
-  Formula: C5H9NO7
-  Fullname: Peroxy radicals from INPD
+  Formula: C5H10NO7
+  Fullname: Peroxy radicals from IHN4
   Is_Gas: true
-  MW_g: 195.1
+  MW_g: 196.1
 IDHPE:
   Formula: C5H10O5
   Fullname: Isoprene dihydroxy hydroperoxy epoxide
@@ -1733,10 +1736,10 @@ IDN:
   MW_g: 192.1
   WD_RetFactor: 2.0e-2
 IDNOO:
-  Formula: C5H8N2O8
+  Formula: C5H9N2O9
   Fullname: IDNOO
   Is_Gas: true
-  MW_g: 224.1
+  MW_g: 241.1
 IEPOXA:
   DD_F0: 1.0
   DD_Hstar: 8.0e+7
@@ -1751,10 +1754,10 @@ IEPOXA:
   MW_g: 118.2
   WD_RetFactor: 2.0e-2
 IEPOXAOO:
-  Formula: C5H10O5
+  Formula: C5H9O5
   Fullname: Peroxy radical from trans-Beta isoprene epoxydiol
   Is_Gas: true
-  MW_g: 150.2
+  MW_g: 149.1
 IEPOXB:
   DD_F0: 1.0
   DD_Hstar: 8.0e+7
@@ -1769,10 +1772,10 @@ IEPOXB:
   MW_g: 118.2
   WD_RetFactor: 2.0e-2
 IEPOXBOO:
-  Formula: C5H10O5
+  Formula: C5H9O5
   Fullname: peroxy radical from cis-Beta isoprene epoxydiol
   Is_Gas: true
-  MW_g: 150.2
+  MW_g: 149.1
 IEPOXD:
   DD_F0: 1.0
   DD_Hstar: 8.0e+7
@@ -1843,44 +1846,45 @@ IHN4:
   MW_g: 147.1
   WD_RetFactor: 2.0e-2
 IHOO1:
-  Formula: C5H9O
+  Formula: C5H9O3
   Fullname: Peroxy radical from OH addition to isoprene at C1
   Is_Gas: true
-  MW_g: 85.1
+  MW_g: 117.1
 IHOO4:
-  Formula: C5H9O
+  Formula: C5H9O3
   Fullname: Peroxy radical from OH addition to isoprene at C4
   Is_Gas: true
-  MW_g: 85.1
+  MW_g: 117.1
 IHPNBOO:
-  Formula: C5H9NO7
+  Formula: C5H10NO8
   Fullname: Peroxy radicals from INPB
   Is_Gas: true
-  MW_g: 195.1
+  MW_g: 212.1
 IHPNDOO:
-  Formula: C5H9NO7
+  Formula: C5H10NO8
   Fullname: Peroxy radicals from INPD
   Is_Gas: true
-  MW_g: 195.1
+  MW_g: 212.1
 IHPOO1:
-  Formula: C5H9O4
+  Formula: C5H11O6
   Fullname: Peroxy radical from ISOPOOH
   Is_Gas: true
-  MW_g: 133.1
+  MW_g: 167.1
 IHPOO2:
-  Formula: C5H9O4
+  Formula: C5H11O6
   Fullname: Peroxy radical from ISOPOOH
   Is_Gas: true
-  MW_g: 133.1
+  MW_g: 167.1
 IHPOO3:
-  Formula: C5H9O4
+  Formula: C5H11O6
   Fullname: Peroxy radical from ISOPOOH
   Is_Gas: true
-  MW_g: 133.1
+  MW_g: 167.1
 INA:
+  Formula: C5H8NO4
   Fullname: Alkoxy radical from INO2D
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 146.1
 INDIOL:
   DD_DvzAerSnow: 0.03
   DD_F0: 0.0
@@ -1902,13 +1906,15 @@ INO:
   Is_Photolysis: true
   MW_g: 156.9
 INO2B:
+  Formula: C5H8NO5
   Fullname: beta-peroxy radicals from isoprene + NO3
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 162.1
 INO2D:
+  Formula: C5H8NO5
   Fullname: delta-peroxy radicals from isoprene + NO3
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 162.1
 INPB:
   DD_F0: 1.0
   DD_Hstar: 2.0e+6
@@ -2021,15 +2027,15 @@ ISOP:
   MW_g: 68.12
   MolecRatio: 5.0
 ISOPNOO1:
-  Formula: C5H9NO6
+  Formula: C5H10NO7
   Fullname: Peroxy radicals from IHN2
   Is_Gas: true
-  MW_g: 179.1
+  MW_g: 196.1
 ISOPNOO2:
-  Formula: C5H9NO6
+  Formula: C5H10NO7
   Fullname: Peroxy radicals from IHN3
   Is_Gas: true
-  MW_g: 179.1
+  MW_g: 196.1
 ITCN:
   DD_F0: 1.0
   DD_Hstar: 1.00e+8
@@ -2059,9 +2065,10 @@ ITHN:
   MW_g: 197.2
   WD_RetFactor: 2.0e-2
 KO2:
+  Formula: C4H5O3
   Fullname: Peroxy radical from >3 ketones
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 101.1
 LBRO2H:
   Fullname: Dummy species to track oxidation of BRO2 by HO2
 LBRO2N:
@@ -2084,10 +2091,10 @@ LIMO:
   MW_g: 136.23
   WD_RetFactor: 2.0e-2
 LIMO2:
-  Formula: C10H16O2
+  Formula: C10H17O3
   Fullname: Peroxy radical from LIMO
   Is_Gas: true
-  MW_g: 152.2
+  MW_g: 185.2
 LISOPNO3:
   Fullname: Dummy species to track oxidation of ISOP by NO3
 LISOPOH:
@@ -2161,10 +2168,10 @@ MACR1OOH:
   MW_g: 102.1
   WD_RetFactor: 2.0e-2
 MACRNO2:
-  Formula: C4H8NO6
+  Formula: C4H6NO7
   Fullname: Product of MCRHN + OH
   Is_Gas: true
-  MW_g: 152.1
+  MW_g: 180.1
 MAP:
   DD_F0: 1.0
   DD_Hstar: 8.4e+2
@@ -2183,7 +2190,7 @@ MCO3:
   Formula: CH3C(O)OO
   Fullname: Peroxyacetyl radical
   Is_Gas: true
-  MW_g: 75.1
+  MW_g: 75.0
 MCRDH:
   DD_F0: 1.0
   DD_Hstar: 1.4e+6
@@ -2254,9 +2261,10 @@ MCRHP:
   MW_g: 120.1
   WD_RetFactor: 2.0e-2
 MCROHOO:
+  Formula: C4H7O4
   Fullname: Peroxy radical from MACR + OH
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 119.1
 MEK:
   EmMW_g: 12.0
   Formula: RC(O)R
@@ -2331,6 +2339,7 @@ MONITA:
 MONITS:
   DD_F0: 1.0
   DD_Hstar: 2.0e+6
+  Formula: C10H17NO4
   Fullname: Saturated 1st gen monoterpene organic nitrate
   Henry_CR: 9200.0
   Henry_K0: 1.7e+4
@@ -2339,11 +2348,12 @@ MONITS:
   Is_Gas: true
   Is_Photolysis: true
   Is_WetDep: true
-  MW_g: 215.0
+  MW_g: 215.2
   WD_RetFactor: 2.0e-2
 MONITU:
   DD_F0: 1.0
   DD_Hstar: 2.0e+6
+  Formula: C10H17NO4
   Fullname: Unsaturated 1st gen monoterpene organic nitrate
   Henry_CR: 9200.0
   Henry_K0: 1.7e+4
@@ -2352,7 +2362,7 @@ MONITU:
   Is_Gas: true
   Is_Photolysis: true
   Is_WetDep: true
-  MW_g: 215.0
+  MW_g: 215.2
   WD_RetFactor: 2.0e-2
 MOPI:
   DD_DvzAerSnow: 0.03
@@ -2479,7 +2489,7 @@ MVK:
 MVKDH:
   DD_F0: 1.0
   DD_Hstar: 1.4e+6
-  Formula: HOCH2CH2OHC(O)CH3
+  Formula: HOCH2CH(OH)C(O)CH3
   Fullname: dihydroxy-MVK
   Henry_CR: 7200.0
   Henry_K0: 1.4e+6
@@ -2487,7 +2497,7 @@ MVKDH:
   Is_DryDep: true
   Is_Gas: true
   Is_WetDep: true
-  MW_g: 105.1
+  MW_g: 104.1
   WD_RetFactor: 2.0e-2
 MVKHC:
   DD_F0: 1.0
@@ -2546,10 +2556,10 @@ MVKN:
   MW_g: 149.1
   WD_RetFactor: 2.0e-2
 MVKOHOO:
-  Formula: C4H7O2
+  Formula: C4H7O4
   Fullname: Peroxy radical from MVK + OH
   Is_Gas: true
-  MW_g: 87.1
+  MW_g: 119.1
 MVKPC:
   DD_F0: 1.0
   DD_Hstar: 1.4e+6
@@ -2847,13 +2857,15 @@ OIO:
   Is_Photolysis: true
   MW_g: 158.9
 OLND:
+  Formula: C10H16NO5
   Fullname: Monoterpene-derived NO3-alkene adduct
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 230.2
 OLNN:
+  Formula: C10H16NO5
   Fullname: Monoterpene-derived NO3 adduct
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 230.2
 OPOA1:
   DD_DvzAerSnow: 0.03
   DD_F0: 0.0
@@ -2902,8 +2914,9 @@ OPOG2:
   WD_RetFactor: 2.0e-2
 OTHRO2:
   Fullname: Other C2 RO2 not from C2H6 oxidation
+  Formula: CH3CH2OO
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 61.1
 PAN:
   DD_F0: 1.0
   DD_Hstar: 3.6
@@ -2958,10 +2971,10 @@ pFe:
 PH2O2:
   Fullname: Dummy species to track production rate of H2O2
 PIO2:
-  Formula:
+  Formula: C10H17O3
   Fullname: Peroxy radical from MTPA
   Is_Gas: true
-  MW_g: 1.0
+  MW_g: 185.2
 PIP:
   Formula: C10H18O3
   Fullname: Peroxide from MTPA
@@ -3318,13 +3331,14 @@ PYAC:
   MW_g: 88.1
   WD_RetFactor: 2.0e-2
 R4N1:
+  Formula: R(ONO2)OO
   Fullname: Peroxy radical from R4N2
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 150.1
 R4N2:
   DD_F0: 1.0
   DD_Hstar: 1.7e+4
-  Formula: RO2NO
+  Formula: RONO2
   Fullname: Lumped alkyl nitrate
   Henry_CR: 5800.0
   Henry_K0: 1.0
@@ -3333,12 +3347,12 @@ R4N2:
   Is_Gas: true
   Is_Photolysis: true
   Is_WetDep: true
-  MW_g: 119.0
+  MW_g: 119.1
   WD_RetFactor: 2.0e-2
 R4O2:
   Fullname: Peroxy radical from ALK4
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 89.1
 R4P:
   DD_F0: 1.0
   DD_Hstar: 2.94e+2
@@ -3645,9 +3659,10 @@ TOLU:
   MW_g: 92.14
   MolecRatio: 7.0
 TRO2:
+  Formula: C7H9O5
   Fullname: Peroxy radical from TOLU oxidation
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 173.1
 TSOA0: &TSOAproperties
   DD_DvzAerSnow: 0.03
   DD_F0: 0.0
@@ -3688,9 +3703,10 @@ TSOG2:
 TSOG3:
   >> : *TSOGproperties
 XRO2:
+  Formula: C8H11O5
   Fullname: Peroxy radical from TOLU oxidation
   Is_Gas: true
-  MW_g: NEEDED
+  MW_g: 187.2
 XYLE:
   EmMW_g: 12.0
   Formula: C8H10
