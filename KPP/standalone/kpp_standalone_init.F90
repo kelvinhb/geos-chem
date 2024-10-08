@@ -49,7 +49,7 @@ USE gckpp_Parameters
   do i = 1, NHEADER
      read(file_unit, '(A)', iostat=ierr) line
      if (ierr /= 0)  then
-      print *, "Error reading line", i 
+      print *, "Error reading line", i
       exit
      end if
      ! Get level
@@ -91,7 +91,7 @@ USE gckpp_Parameters
   do i = 1, NSPEC
      read(file_unit, '(A)', iostat=ierr) line
      if (ierr /= 0)  then
-      print *, "Error reading line", i+NHEADER 
+      print *, "Error reading line", i+NHEADER
       exit
      end if
      idx = index(line, ',') + 1
@@ -108,7 +108,7 @@ USE gckpp_Parameters
   do i = 1, NREACT
      read(file_unit, '(A)', iostat=ierr) line
      if (ierr /= 0)  then
-      print *, "Error reading line", i+NSPEC+NHEADER 
+      print *, "Error reading line", i+NSPEC+NHEADER
       exit
      end if
      idx = index(line, ',') + 1
@@ -120,4 +120,3 @@ USE gckpp_Parameters
 end subroutine read_input
 
 end module kpp_standalone_init
-
